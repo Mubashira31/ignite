@@ -1,0 +1,21 @@
+.sign-in{
+    margin-top: 10rem;
+}
+.form-group{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+}
+input{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: solid; 
+    
+}
+.signin-form{
+    display: flex;
+    flex-direction: row;
+}

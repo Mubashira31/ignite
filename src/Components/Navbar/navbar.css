@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&family=Righteous&family=Roboto+Mono&family=Rubik+Pixels&display=swap');
+
+
+nav{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    /* font-family: 'Rubik Pixels'; */
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+    height: 5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.active{
+    transition: all 0.5s ease-in-out;
+
+}
+.active:hover{
+    background-color: #43597E;
+    border-radius: 0.4rem;
+    gap: 0.3rem;
+    color: white;
+}
+
+
+
+
+
+
+

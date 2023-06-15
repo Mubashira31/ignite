@@ -1,0 +1,49 @@
+.suggestions-page{
+    position: absolute;
+    transform: translate(50%,30%);
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+}
+input{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: solid; 
+    
+}
+#suggest1{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    border: solid;
+}
+#suggestion{
+    border-radius: 0.4rem;
+    cursor: pointer;
+    width: 2.5rem;
+     height: 2.5rem;
+}
+.form-submit{
+    transform: translateX(650%);
+    border: transparent;
+    background-color: #0C2340;
+    color: white;
+
+}
+.suggest-box{
+    display: flex;
+    flex-direction: column;
+}
+.suggest-box img{
+    width: 50%;
+    height: 50%;
+    transform: translate(90%,50%);
+}
